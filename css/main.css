@@ -1,0 +1,149 @@
+
+/* General Styles */
+
+
+html {
+  background-color: #EEE4F0;
+  font-size: 16px;
+
+}
+ 
+body {
+  font-size: 1em;
+  font-family: 'Nunito Sans', sans-serif;
+  text-align: left;
+  color: #351D77;
+}
+ 
+a {
+  text-decoration: none;
+}
+ 
+h1 {
+  font-family: 'Alata', sans-serif;
+  font-weight: 500;
+  font-size: 5em;
+  text-align: center;
+}
+
+h2 {
+  font-family: 'Alata', sans-serif;
+  font-weight: 500;
+  font-size: 1.875em;
+}
+ 
+h3, 
+h4 {
+  font-family: 'Alata', sans-serif;
+  font-size: 1.125em;
+}
+ 
+p {
+  font-size: .875em;
+}
+  
+address {
+  font-style: normal;
+}
+ 
+.content-wrapper {
+  width: 100%;
+  margin: 0px;
+}
+
+img {
+width: 90%;
+
+}
+
+
+/* ----- Base Header - Footer Styles ------*/
+
+header,
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+/* -------- Header --------*/
+
+header {
+  padding: 0px 0px;
+}
+
+header .content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  margin: 0;
+}
+
+header nav {
+  font-family: 'Alata', sans-serif;
+  font-size: 1em;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-flow: row wrap;
+  width: 100%;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  padding: 0px;
+
+}
+
+header nav ul li {
+  font-size: 2.3em;
+  margin: 10px;
+  padding: 10px;
+  list-style-type: none;
+}
+
+
+/* ------- Footer ------*/
+
+footer {
+  text-align: center;
+  flex-direction: column;
+}
+
+footer .content-wrapper {
+  width: 60%;
+  margin: 0px;
+}
+
+
+footer .social {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+footer .social-icons p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer .social-icons p {
+  font-size: 1em;
+}
+
+footer p {
+
+}
+
+
+
+/* --------- Mobile Styles ---------*/
+
+
+
