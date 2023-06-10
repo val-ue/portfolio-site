@@ -21,8 +21,6 @@ a {
  
 h1 {
   font-family: 'Alata', sans-serif;
-  font-weight: 500;
-  font-size: 5em;
   text-align: center;
 }
 
@@ -47,6 +45,8 @@ address {
 }
  
 .content-wrapper {
+
+  
   width: 100%;
   margin: 0px;
 }
@@ -144,6 +144,48 @@ footer p {
 
 
 /* --------- Mobile Styles ---------*/
+
+.intro {
+  
+  display: flex;
+  margin-bottom: 150px;
+}
+
+.intro content-wrapper {
+  justify-content: center;
+}
+
+.intro h1 {
+  font-weight: 600;
+  font-size: 8em;
+}
+
+.intro p {
+ margin: 0px 30px;
+  font-size: 4em;
+  font-weight: 600;
+  text-align: center;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
