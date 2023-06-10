@@ -33,10 +33,10 @@
 <!-- MAIN INTRO -->  
 
   <main>
-    <section class="intro">
+    <section id="intro">
 
       <div class="content-wrapper">
-        <h1>Hi, I'm Valerie!</h1>
+        <h1>Hi<span>,</span> I'm Valerie!</h1>
         <p>I'm a Front End Web Developer based in the United States.</p>
       </div>
 
@@ -48,7 +48,7 @@
 
           <img src="img/myicon.png" alt="cartoon portrait"/>
                 
-          <h2>About me.</h2>
+          <h2>About me<span>.</span></h2>
           <p>I'm Val, a front-end web devloper who 
           likes to build responsive 
           and accessible experiences on the web. 
@@ -56,7 +56,7 @@
           which is why I was drawn to
           the field. I find it particularly satisfying 
           to see everything come together after a challenge.   
-          When I'm not making cool stuff online, 
+          <br/><br/>When I'm not making cool stuff online, 
           you can find me drawing, sewing stuffed animals, 
           or baking.</p>
 
@@ -64,78 +64,86 @@
 
       </section>
 
+<!-- SKILLS -->           
+<section id="skills">
+  <div class="content-wrapper">
+    <h2>Skills<span>.</span></h2>
+    <ul>
+      <li>CSS3</li>
+      <li>HTML5</li>
+      <li>JavaScript</li>
+      <li>React</li>
+      <li>Git & the Command Line </li>
+      <li>Node.js</li>
+      <li>Github</li> 
+      <li>Flexbox & CSS Grid</li>
+      <li>Data FLow</li>
+      <li>Photoshop</li>
+      <li>Text Editors</li>
+      <li>JSX</li>
+      <li>ES6</li>
+      <li>APIs</li>
+      <li>Devtools</li>
+      <li>Responsive Typography</li>
+      <li>CodeSandbox</li>
+    </ul>
+  </div>         
+</section>
 
 <!-- PROJECTS-->  
       <section id="projects">
         <div class="content-wrapper">
-          <h2>Projects</h2>
+          <h2>Projects<span>.</span></h2>
 
           <div class="individual-projects">
             <a href="https://val-ue.github.io/unplugged/" target="_blank"><img src="img/unpluggedimg.png" alt="unplugged project screenshot"/></a>
             <a href="https://val-ue.github.io/unplugged/" target="_blank"><h3>Unplugged</h3></a>
-            <p>A 3-page, fully responsive website from a design comp. The website is for a retreat aimed at tech industry professionals.</p>
-            <p class="skills"><span>Skills:</span> CSS3, HTML5, Flexbox, Responsive Typography, Media Queries</p>
-            <p class="skills"><span>Tools:</span> Github, Photoshop, Visual Studio Code</p>
+            <div class="project-description">
+              <p class="individial-description">A 3-page, fully responsive website from a design comp. The website is for a retreat aimed at tech industry professionals.</p>
+              <p class="skills"><span>Skills:</span> CSS3, HTML5, Flexbox, Responsive Typography, Media Queries</p>
+              <p class="skills"><span>Tools:</span> Github, Photoshop, Visual Studio Code</p>
+            </div>  
           </div>
 
           <div class="individual-projects">
             <a href="https://val-ue.github.io/word-guessing-game/" target="_blank"><img src="img/guessthewordimg.png" alt="guess the word game screenshot"/></a>
             <a href="https://val-ue.github.io/word-guessing-game/" target="_blank"><h3>Guess the Word Game</h3></a>
-            <p>This game, made with Javascript, lets users guess a randomly generated word one letter at a time. If the player guesses the word correctly in 8 tries, they win!</p>
-            <p class="skills"><span>Skills:</span> JavaScript, HTML5, CSS3</p>
-            <p class="skills"><span>Tools:</span> Github, JSON</p>
+            <div class="project-description">
+              <p class="individial-description">This game, made with Javascript, lets users guess a randomly generated word one letter at a time. If the player guesses the word correctly in 8 tries, they win!</p>
+              <p class="skills"><span>Skills:</span> JavaScript, HTML5, CSS3</p>
+              <p class="skills"><span>Tools:</span> Github, JSON</p>
+            </div>
           </div>
 
           <div class="individual-projects">
             <a href="https://1t99s9.csb.app/" target="_blank"><img src="img/stickynoteimg.png" alt="sticky note iu screenshot"/></a>
             <a href="https://1t99s9.csb.app/" target="_blank"><h3>Sticky Note UI</h3></a>
-            <p>An interactive sticky note app that lets users create, edit, and delete sticky notes. Made with React.</p>
-            <p class="skills"><span>Skills:</span> React, ES6, JSX, Data Flow, DOM Manipulation, Local Storage</p>
-            <p class="skills"><span>Tools:</span> CodeSandbox</p>
+            <div class="project-description">
+              <p class="individial-description">An interactive sticky note app that lets users create, edit, and delete sticky notes. Made with React.</p>
+              <p class="skills"><span>Skills:</span> React, ES6, JSX, Data Flow, DOM Manipulation, Local Storage</p>
+              <p class="skills"><span>Tools:</span> CodeSandbox</p>
+            </div>
           </div>
 
           <div class="individual-projects">
             <a href="https://6bfkcg.csb.app/" target="_blank"><img src="img/nametagimg.png" alt="name tag generator screenshot"/></a>
             <a href="https://6bfkcg.csb.app/" target="_blank"><h3>Name Tag Generator</h3></a>
-            <p>This name tag generator is made with React. By using functional components and ES6 modules, it allows users to create name tags in bulk.</p>
-            <p class="skills"><span>Skills:</span> React, ES6, JSX, Data Flow</p>
-            <p class="skills"><span>Tools:</span> CodeSandbox</p>
+            <div class="project-description">
+              <p class="individial-description">This name tag generator is made with React. By using functional components and ES6 modules, it allows users to create name tags in bulk.</p>
+              <p class="skills"><span>Skills:</span> React, ES6, JSX, Data Flow</p>
+              <p class="skills"><span>Tools:</span> CodeSandbox</p>
+            </div>
           </div>
 
         </div>
       </section>
 
-<!-- SKILLS -->           
-      <section id="skills">
-        <div class="content-wrapper">
-          <h2>Skills.</h2>
-          <ul>
-            <li>CSS3</li>
-            <li>HTML5</li>
-            <li>JavaScript</li>
-            <li>React</li>
-            <li>Git & the Command Line </li>
-            <li>Node.js</li>
-            <li>Github</li> 
-            <li>Flexbox & CSS Grid</li>
-            <li>Data FLow</li>
-            <li>Photoshop</li>
-            <li>Text Editors</li>
-            <li>JSX</li>
-            <li>ES6</li>
-            <li>APIs</li>
-            <li>Devtools</li>
-            <li>Responsive Typography</li>
-            <li>CodeSandbox</li>
-          </ul>
-        </div>         
-      </section>
 
 
 <!-- CONTACT -->            
       <footer>
         <div class="content-wrapper">
-          <h2>Let's Connect!</h2>
+          <h2>Let<span>'</span>s Connect!</h2>
           <address><p>hello@hello.com</p></address>
         </div>
 

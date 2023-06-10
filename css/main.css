@@ -3,7 +3,7 @@
 
 
 html {
-  background-color: #EEE4F0;
+  background-color: #FAF7F5;
   font-size: 16px;
 
 }
@@ -11,14 +11,19 @@ html {
 body {
   font-size: 1em;
   font-family: 'Nunito Sans', sans-serif;
-  text-align: left;
-  color: #351D77;
+  color: #004070;
+  margin: 0;
 }
  
 a {
   text-decoration: none;
 }
- 
+
+a:visited { 
+ color: #004070; 
+
+}
+
 h1 {
   font-family: 'Alata', sans-serif;
   text-align: center;
@@ -26,8 +31,7 @@ h1 {
 
 h2 {
   font-family: 'Alata', sans-serif;
-  font-weight: 500;
-  font-size: 1.875em;
+
 }
  
 h3, 
@@ -36,25 +40,20 @@ h4 {
   font-size: 1.125em;
 }
  
-p {
-  font-size: .875em;
-}
-  
 address {
   font-style: normal;
 }
- 
-.content-wrapper {
 
-  
-  width: 100%;
-  margin: 0px;
+h1 span, h2 span {
+  color: #65c9ff;
 }
+ 
 
 img {
-width: 90%;
-
+  width: 100%;
+/*--- TEMPORARY ---*/
 }
+
 
 
 /* ----- Base Header - Footer Styles ------*/
@@ -79,6 +78,7 @@ header .content-wrapper {
   align-items: center;
   flex-flow: row wrap;
   margin: 0;
+  width: 100%;
 }
 
 header nav {
@@ -145,47 +145,116 @@ footer p {
 
 /* --------- Mobile Styles ---------*/
 
-.intro {
+#intro {
   
   display: flex;
-  margin-bottom: 150px;
-}
-
-.intro content-wrapper {
+  margin-bottom: 130px;
   justify-content: center;
 }
 
-.intro h1 {
+
+
+#intro h1 {
   font-weight: 600;
   font-size: 8em;
 }
 
-.intro p {
- margin: 0px 30px;
-  font-size: 4em;
+#intro p {
+  margin: 0px 10px;
+  font-size: 3.5em;
   font-weight: 600;
   text-align: center;
+}
 
+#about {
+  display: flex;
+  justify-content: center;
+}
+
+#about .content-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+}
+
+#about img {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 50px;
 }
 
 
+h2 {
+  font-weight: 600;
+  font-size: 5em;
+  margin-bottom: 10px;
+}
+
+#about p {
+  font-size: 2em; 
+}
+
+#skills {
+  display: flex;
+  justify-content: center;
+}
+
+#skills .content-wrapper {
+
+  width: 90%;
+}
 
 
+#skills h2 {
+  margin-bottom: 50px;
+}
+
+#skills li {
+  font-size: 2em;
+  font-weight: 600;
+}
 
 
+#projects {
+  display: flex;
+  justify-content: center;
+}
 
+#projects .content-wrapper {
 
+  width: 90%;
+}
 
+#projects h2 {
+  margin-bottom: 50px;
+}
 
+#projects h3 {
+  font-size: 3em;
 
+}
 
+#projects p {
+  font-size: 1.2em;
+  font-weight: 500;
+}
 
+#projects .individual-projects {
+  margin-bottom: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  border: solid 5px;
+}
 
-
-
-
-
-
+#projects .project-description {
+  font-size: 2.5em;
+  width: 80%;
+}
+#projects .individial-description {
+  margin-top: 0;
+}
 
 
 
