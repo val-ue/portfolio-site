@@ -8,7 +8,6 @@ html {
 }
  
 body {
-  font-size: 1em;
   font-family: 'Nunito Sans', sans-serif;
   color: #004070;
   margin: 0;
@@ -50,7 +49,6 @@ h1 span, h2 span {
 
 img {
   width: 100%;
-/*--- TEMPORARY ---*/
 }
 
 
@@ -109,36 +107,24 @@ header nav ul li {
 
 /* ------- Footer ------*/
 
-footer {
-  text-align: center;
-  flex-direction: column;
-}
 
 footer .content-wrapper {
-  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  width: 90%;
   margin: 0px;
 }
 
 
 footer .social {
+
   display: flex;
+  align-items: center;
   justify-content: space-around;
-  align-items: center;
 }
 
-footer .social-icons p {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-footer .social-icons p {
-  font-size: 1em;
-}
-
-footer p {
-
-}
 
 
 
@@ -184,10 +170,13 @@ footer p {
   margin-bottom: 50px;
 }
 
-
 h2 {
   font-weight: 600;
   font-size: 5em;
+}
+
+
+#about h2 {
   margin-bottom: 10px;
 }
 
@@ -209,10 +198,10 @@ h2 {
   width: 90%;
 }
 
-
 #skills h2 {
   margin-bottom: 50px;
 }
+
 
 #skills ul {
   margin-bottom: 70px;
@@ -235,17 +224,22 @@ h2 {
 }
 
 #projects h2 {
+  margin-top: 70px;
   margin-bottom: 50px;
 }
 
 #projects h3 {
   text-align: center;
-  font-size: 1.5em;
+  font-size: 3.8em;
   margin: 40px 0;
 }
 
+#projects h3 span {
+  font-size: .5em;
+}
+
 #projects p {
-  font-size: 1.2em;
+  font-size: 3.1em;
   font-weight: 500;
 }
 
@@ -262,11 +256,9 @@ h2 {
 }
 
 #projects .project-description {
-  font-size: 2.5em;
   width: 80%;
   padding: 0 9% 5% 9%;
-  border: solid .3em;
-
+  border: solid .8em;
   border-radius: 0 0 2.5em 2.5em;
   background-color: #F5F7FA;
 }
@@ -279,3 +271,26 @@ h2 {
 #projects img {
   display: block;
 }
+
+footer h1 {
+  font-size: 6em;
+}
+
+footer .social {
+  width: 30em;
+}
+
+footer .social-icons {
+  font-size: 6em;
+  margin-top: .7em;
+  margin-bottom: 2em;
+}
+
+footer address {
+  font-size: 3.5em;
+}
+
+
+
+
+
