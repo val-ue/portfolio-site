@@ -47,9 +47,7 @@ h1 span, h2 span {
 }
  
 
-img {
-  width: 100%;
-}
+
 
 
 
@@ -139,6 +137,10 @@ footer .social {
   justify-content: center;
 }
 
+#intro .content-wrapper {
+  width: 90%;
+}
+
 #intro h1 {
   font-weight: 600;
   font-size: 8em;
@@ -159,16 +161,15 @@ footer .social {
 
 #about .content-wrapper {
   display: flex;
-  flex-wrap: wrap;
   width: 90%;
+  flex-direction: column;
+  align-items: center;
 }
 
 #about img {
-  display: flex;
-  justify-content: center;
-  width: 100%;
   margin-bottom: 50px;
 }
+
 
 h2 {
   font-weight: 600;
@@ -178,6 +179,11 @@ h2 {
 
 #about h2 {
   margin-bottom: 10px;
+  width: 100%;
+}
+
+#about img {
+  width: 100%;
 }
 
 #about p {
@@ -238,6 +244,10 @@ h2 {
   font-size: .5em;
 }
 
+#projects img {
+  width: 100%;
+}
+
 #projects p {
   font-size: 3.1em;
   font-weight: 500;
@@ -289,6 +299,55 @@ footer .social-icons {
 footer address {
   font-size: 3.5em;
 }
+
+
+/* =============== MEDIA QUERIES ============== */
+
+
+@media only screen and (min-width: 768px) {
+
+
+/*Tablet styles*/
+
+#intro {
+  margin-bottom: 70px;
+
+}
+
+
+#about img {
+  width: 70%;
+  margin-bottom: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 1200px) {
+
+/*Desktop styles*/
+
+
+
+
+
+
+
+
+
 
 
 
