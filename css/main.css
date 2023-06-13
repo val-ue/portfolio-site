@@ -96,9 +96,8 @@ header nav ul {
 }
 
 header nav ul li {
-  font-size: 2.3em;
-  margin: 10px;
-  padding: 10px;
+  font-size: 1em;
+  margin-top: 10px;
   list-style-type: none;
 }
 
@@ -110,7 +109,7 @@ footer .content-wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-flow: row wrap;
+  flex-direction: column;
   width: 90%;
   margin: 0px;
 }
@@ -143,12 +142,12 @@ footer .social {
 
 #intro h1 {
   font-weight: 600;
-  font-size: 8em;
+  font-size: 1em;
 }
 
 #intro p {
   margin: 0px 10px;
-  font-size: 3.5em;
+  font-size: 1em;
   font-weight: 600;
   text-align: center;
 }
@@ -173,7 +172,7 @@ footer .social {
 
 h2 {
   font-weight: 600;
-  font-size: 5em;
+  font-size: 1em;
 }
 
 
@@ -187,7 +186,7 @@ h2 {
 }
 
 #about p {
-  font-size: 2em; 
+  font-size: 1em; 
   margin-bottom: 90px;
 }
 
@@ -214,7 +213,7 @@ h2 {
 }
 
 #skills li {
-  font-size: 2em;
+  font-size: 1em;
   font-weight: 600;
 }
 
@@ -236,7 +235,7 @@ h2 {
 
 #projects h3 {
   text-align: center;
-  font-size: 3.8em;
+  font-size: 1em;
   margin: 40px 0;
 }
 
@@ -249,7 +248,7 @@ h2 {
 }
 
 #projects p {
-  font-size: 3.1em;
+  font-size: 1em;
   font-weight: 500;
 }
 
@@ -283,7 +282,7 @@ h2 {
 }
 
 footer h1 {
-  font-size: 6em;
+  font-size: 1em;
 }
 
 footer .social {
@@ -291,13 +290,13 @@ footer .social {
 }
 
 footer .social-icons {
-  font-size: 6em;
+  font-size: 1em;
   margin-top: .7em;
   margin-bottom: 2em;
 }
 
 footer address {
-  font-size: 3.5em;
+  font-size: 1em;
 }
 
 
