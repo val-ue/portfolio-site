@@ -35,7 +35,6 @@ h2 {
 h3, 
 h4 {
   font-family: 'Alata', sans-serif;
-  font-size: 
 }
  
 address {
@@ -125,29 +124,33 @@ footer .social {
 
 
 
-/* --------- Mobile Styles ---------*/
+/* ------------------- Mobile Styles -------------------*/
 
 
 
 
 #intro {
   display: flex;
-  margin-bottom: 130px;
+  margin-bottom: 50px;
   justify-content: center;
 }
 
 #intro .content-wrapper {
+  display: flex;
   width: 90%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 #intro h1 {
   font-weight: 600;
-  font-size: 1em;
+  font-size: 3.5em;
 }
 
 #intro p {
   margin: 0px 10px;
-  font-size: 1em;
+  font-size: 1.5em;
   font-weight: 600;
   text-align: center;
 }
@@ -166,13 +169,13 @@ footer .social {
 }
 
 #about img {
-  margin-bottom: 50px;
+  margin-bottom: 20px;
 }
 
 
 h2 {
   font-weight: 600;
-  font-size: 1em;
+  font-size: 2.5em;
 }
 
 
@@ -186,7 +189,7 @@ h2 {
 }
 
 #about p {
-  font-size: 1em; 
+  font-size: 1.2em; 
   margin-bottom: 90px;
 }
 
@@ -204,16 +207,16 @@ h2 {
 }
 
 #skills h2 {
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 }
 
 
 #skills ul {
-  margin-bottom: 70px;
+  margin-bottom: 50px;
 }
 
 #skills li {
-  font-size: 1em;
+  font-size: 1.5em;
   font-weight: 600;
 }
 
@@ -235,8 +238,8 @@ h2 {
 
 #projects h3 {
   text-align: center;
-  font-size: 1em;
-  margin: 40px 0;
+  font-size: 1.5em;
+  margin: 20px 0;
 }
 
 #projects h3 span {
@@ -248,7 +251,7 @@ h2 {
 }
 
 #projects p {
-  font-size: 1em;
+  font-size: 1.3em;
   font-weight: 500;
 }
 
@@ -282,25 +285,25 @@ h2 {
 }
 
 footer h1 {
-  font-size: 1em;
+  font-size: 3em;
 }
 
 footer .social {
-  width: 30em;
+  width: 70%;
 }
 
 footer .social-icons {
-  font-size: 1em;
+  font-size: 3em;
   margin-top: .7em;
   margin-bottom: 2em;
 }
 
 footer address {
-  font-size: 1em;
+  font-size: 1.5em;
 }
 
 
-/* =============== MEDIA QUERIES ============== */
+/* ==================== MEDIA QUERIES =================== */
 
 
 @media only screen and (min-width: 768px) {
@@ -308,29 +311,58 @@ footer address {
 
 /*Tablet styles*/
 
-#intro {
-  margin-bottom: 70px;
 
+header nav ul {
+  width: 80%;
 }
 
+header nav ul li {
+  font-size: 1.3em;
+}
+
+#intro {
+  margin-bottom: 70px;
+}
+
+#intro h1 {
+  font-size: 5em;
+}
+
+#intro p {
+  font-size: 2em;
+  width: 80%;
+}
 
 #about img {
   width: 70%;
   margin-bottom: 0;
 }
 
+#skills ul {
+  display: flex;
+  width: 100%;
+  flex-flow: row wrap;
+}
 
+#skills ul li {
+  width: 45%;
+}
 
+footer h1 {
+  font-size: 4em;
+}
 
+footer address {
+  font-size: 2em;
+}
 
+footer .social {
+  width: 40%;
+}
 
-
-
-
-
-
-
-
+footer .social-icons {
+  font-size: 4em;
+}
 
 
 
@@ -340,8 +372,14 @@ footer address {
 /*Desktop styles*/
 
 
+header .content-wrapper {
+  justify-content: flex-end;
+}
 
-
+header nav {
+  justify-content: flex-end;
+  width: 50%;
+}
 
 
 
