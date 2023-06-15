@@ -49,19 +49,19 @@
         <div class="content-wrapper">  
 
           <img src="img/myicon.png" alt="cartoon portrait"/>
-                
-          <h2>About me<span>.</span></h2>
-          <p>I'm Val, a front-end web devloper who 
-          likes to build responsive 
-          and accessible experiences on the web. 
-          I've always enjoyed creating and messing with things, 
-          which is why I was drawn to
-          the field. I find it particularly satisfying 
-          to see everything come together after a challenge.   
-          <br/><br/>When I'm not making cool stuff online, 
-          you can find me drawing, sewing stuffed animals, 
-          or baking.</p>
-
+          <div class="about-description"> 
+            <h2>About me<span>.</span></h2>
+            <p>I'm Val, a front-end web devloper who 
+            likes to build responsive 
+            and accessible experiences on the web. 
+            I've always enjoyed creating and messing with things, 
+            which is why I was drawn to
+            the field. I find it particularly satisfying 
+            to see everything come together after a challenge.   
+            <br/><br/>When I'm not making cool stuff online, 
+            you can find me drawing, sewing stuffed animals, 
+            or baking.</p>
+          </div>        
         </div>
 
       </section>
@@ -89,77 +89,81 @@
       <li>Responsive Typography</li>
       <li>CodeSandbox</li>
     </ul>
-  </div>         
+  </div>
 </section>
 
 <!-- PROJECTS-->  
       <section id="projects">
         <div class="content-wrapper">
-          <h2>Projects<span>.</span></h2>
+          <div class="projects-header">
+            <h2>Projects<span>.</span></h2>
+          </div>  
 
-          <div class="individual-projects">
+          <div class="grouped-classes">
+            <div class="individual-projects">
+  
+              <div>
+                <a href="https://val-ue.github.io/unplugged/" target="_blank">
+                  <img src="img/unpluggedimg.png" alt="unplugged project screenshot"/>
+                </a>
+              </div>
+          
 
-            <div>
-              <a href="https://val-ue.github.io/unplugged/" target="_blank">
-                <img src="img/unpluggedimg.png" alt="unplugged project screenshot"/>
-              </a>
+              <div class="project-description">
+                <a href="https://val-ue.github.io/unplugged/" target="_blank"><h3>Unplugged <span><i class="fas fa-external-link-alt"></i></span></h3></a>
+                <p class="individial-description">A 3-page, fully responsive website from a design comp. The website is for a retreat aimed at tech industry professionals.</p>
+                <p class="skills"><span>Skills:</span> CSS3, HTML5, Flexbox, Responsive Typography, Media Queries</p>
+                <p class="skills"><span>Tools:</span> Github, Photoshop, Visual Studio Code</p>
+              </div>  
             </div>
 
+            <div class="individual-projects">
 
-            <div class="project-description">
-              <a href="https://val-ue.github.io/unplugged/" target="_blank"><h3>Unplugged <span><i class="fas fa-external-link-alt"></i></span></h3></a>
-              <p class="individial-description">A 3-page, fully responsive website from a design comp. The website is for a retreat aimed at tech industry professionals.</p>
-              <p class="skills"><span>Skills:</span> CSS3, HTML5, Flexbox, Responsive Typography, Media Queries</p>
-              <p class="skills"><span>Tools:</span> Github, Photoshop, Visual Studio Code</p>
-            </div>  
+              <div>
+                <a href="https://val-ue.github.io/word-guessing-game/" target="_blank">
+                  <img src="img/guessthewordimg.png" alt="guess the word game screenshot"/>
+                </a>
+              </div>
+
+              <div class="project-description">
+                <a href="https://val-ue.github.io/word-guessing-game/" target="_blank"><h3>Guess the Word Game <span><i class="fas fa-external-link-alt"></i></span></h3></a>
+                <p class="individial-description">This game, made with Javascript, lets users guess a randomly generated word one letter at a time. If the player guesses the word correctly in 8 tries, they win!</p>
+                <p class="skills"><span>Skills:</span> JavaScript, HTML5, CSS3</p>
+                <p class="skills"><span>Tools:</span> Github, JSON</p>
+              </div>
+            </div>
+  
+            <div class="individual-projects">
+  
+              <div>
+                <a href="https://1t99s9.csb.app/" target="_blank">
+                  <img src="img/stickynoteimg.png" alt="sticky note iu screenshot"/>
+                </a>
+              </div>
+
+              <div class="project-description">
+                <a href="https://1t99s9.csb.app/" target="_blank"><h3>Sticky Note UI <span><i class="fas fa-external-link-alt"></i></span></h3></a>
+                <p class="individial-description">An interactive sticky note app that lets users create, edit, and delete sticky notes. Made with React.</p>
+                <p class="skills"><span>Skills:</span> React, ES6, JSX, Data Flow, DOM Manipulation, Local Storage</p>
+                <p class="skills"><span>Tools:</span> CodeSandbox</p>
+              </div>
+            </div>
+
+            <div class="individual-projects">
+  
+              <div>
+                <a href="https://6bfkcg.csb.app/" target="_blank"><img src="img/nametagimg.png" alt="name tag generator screenshot"/></a>
+              </div>
+
+              <div class="project-description">
+                <a href="https://6bfkcg.csb.app/" target="_blank"><h3>Name Tag Generator <span><i class="fas fa-external-link-alt"></i></span></h3></a>
+                <p class="individial-description">This name tag generator is made with React. By using functional components and ES6 modules, it allows users to create name tags in bulk.</p>
+                <p class="skills"><span>Skills:</span> React, ES6, JSX, Data Flow</p>
+                <p class="skills"><span>Tools:</span> CodeSandbox</p>
+              </div>
+            </div>
+
           </div>
-
-          <div class="individual-projects">
-
-            <div>
-              <a href="https://val-ue.github.io/word-guessing-game/" target="_blank">
-                <img src="img/guessthewordimg.png" alt="guess the word game screenshot"/>
-              </a>
-            </div>
-
-            <div class="project-description">
-              <a href="https://val-ue.github.io/word-guessing-game/" target="_blank"><h3>Guess the Word Game <span><i class="fas fa-external-link-alt"></i></span></h3></a>
-              <p class="individial-description">This game, made with Javascript, lets users guess a randomly generated word one letter at a time. If the player guesses the word correctly in 8 tries, they win!</p>
-              <p class="skills"><span>Skills:</span> JavaScript, HTML5, CSS3</p>
-              <p class="skills"><span>Tools:</span> Github, JSON</p>
-            </div>
-          </div>
-
-          <div class="individual-projects">
-
-            <div>
-              <a href="https://1t99s9.csb.app/" target="_blank">
-                <img src="img/stickynoteimg.png" alt="sticky note iu screenshot"/>
-              </a>
-            </div>
-
-            <div class="project-description">
-              <a href="https://1t99s9.csb.app/" target="_blank"><h3>Sticky Note UI <span><i class="fas fa-external-link-alt"></i></span></h3></a>
-              <p class="individial-description">An interactive sticky note app that lets users create, edit, and delete sticky notes. Made with React.</p>
-              <p class="skills"><span>Skills:</span> React, ES6, JSX, Data Flow, DOM Manipulation, Local Storage</p>
-              <p class="skills"><span>Tools:</span> CodeSandbox</p>
-            </div>
-          </div>
-
-          <div class="individual-projects">
-
-            <div>
-              <a href="https://6bfkcg.csb.app/" target="_blank"><img src="img/nametagimg.png" alt="name tag generator screenshot"/></a>
-            </div>
-
-            <div class="project-description">
-              <a href="https://6bfkcg.csb.app/" target="_blank"><h3>Name Tag Generator <span><i class="fas fa-external-link-alt"></i></span></h3></a>
-              <p class="individial-description">This name tag generator is made with React. By using functional components and ES6 modules, it allows users to create name tags in bulk.</p>
-              <p class="skills"><span>Skills:</span> React, ES6, JSX, Data Flow</p>
-              <p class="skills"><span>Tools:</span> CodeSandbox</p>
-            </div>
-          </div>
-
         </div>
       </section>
 
@@ -168,20 +172,25 @@
 <!-- CONTACT -->            
       <footer id="contact">
         <div class="content-wrapper">
-          <h1>Let<span>'</span>s Connect!</h1>
-          <address><p>hello@hello.com</p></address>
-        
 
-          <div class="social">
-            <p class="social-icons">
-              <a href="https://github.com/val-ue" target="_blank"><i class="fab fa-github"></i></a>
-            </p>
-
-            <p class="social-icons">
-              <a href="https://github.com/val-ue" target="_blank"><i class="fab fa-linkedin"></i></a>
-            </p>
-
+          <div class="contact-h1">
+            <h1>Let<span>'</span>s Connect!</h1>
           </div>
+
+          <div class="contact-list">  
+            <address><p>hello@hello.com</p></address>
+        
+  
+            <div class="social">
+              <p class="social-icons">
+                <a href="https://github.com/val-ue" target="_blank"><i class="fab fa-github"></i></a>
+              </p>
+
+              <p class="social-icons">
+                <a href="https://github.com/val-ue" target="_blank"><i class="fab fa-linkedin"></i></a>
+              </p>
+          </div>  
+        
         </div>  
       </footer>
   </main>
