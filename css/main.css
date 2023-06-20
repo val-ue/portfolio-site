@@ -83,7 +83,6 @@ header nav ul {
   justify-content: space-around;
   width: 100%;
   padding: 0px;
-
 }
 
 header nav ul li {
@@ -157,12 +156,10 @@ footer .social {
   margin-bottom: 20px;
 }
 
-
 h2 {
   font-weight: 600;
   font-size: 2.5em;
 }
-
 
 #about h2 {
   margin-bottom: 10px;
@@ -210,7 +207,6 @@ h2 {
 }
 
 #projects .content-wrapper {
-
   width: 90%;
 }
 
@@ -266,8 +262,8 @@ h2 {
   display: block;
 }
 
-footer h1 {
-  font-size: 3em;
+footer .contact-h2 {
+  font-size: 1em;
 }
 
 footer .social {
@@ -284,13 +280,29 @@ footer #email {
   font-size: 2em;
 }
 
-#social .contact-list {
+footer .footer-main {
   display: flex;
-  flex-flow: column;
   justify-content: center;
-  align-items: center;
+  flex-direction: column;
 }
 
+footer .contact-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+footer #email {
+  text-align: center;
+}
+
+footer .copyright {
+  margin-bottom: 2em;
+}
+
+footer .copyright p {
+  font-size: 1.5em;
+}
 
 /* ==================== MEDIA QUERIES =================== */
 
@@ -401,7 +413,6 @@ header nav {
   width: 50%;
 }
 
-
 #skills ul {
   justify-content: left;
 }
@@ -421,14 +432,20 @@ header nav {
   width: 40%;
 }
 
-footer .content-wrapper {
+footer .footer-main {
+  width: 84%;
+  gap: 6%;
+  justify-content: space-between;
   flex-direction: row;
-  gap: 20%;
 }
 
 footer h1 {
   font-size: 4em;
   margin-bottom: 2em;
+}
+
+footer .contact-list {
+  margin-right: 4em;
 }
 
 footer p {

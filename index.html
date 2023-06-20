@@ -7,6 +7,7 @@
   <title>Valerie's Portfolio</title>
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
+  <script src="js/script.js" defer></script>
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -30,18 +31,17 @@
     </div>
   </header>
 
-
 <!-- MAIN INTRO -->  
 
   <main>
     <section id="intro">
 
       <div class="content-wrapper">
-        <h1>Hi<span>,</span> I'm Valerie!</h1>
+        <h1>Hi<span>,</span> I'm Valerie Labi!</h1>
         <p>I'm a Front End Web Developer based in the United States.</p>
       </div>
 
-      </section>
+    </section>
 
 <!-- ABOUT -->
       <section id="about">
@@ -99,21 +99,52 @@
           </div>  
 
           <div class="grouped-classes">
+
             <div class="individual-projects">
   
               <div>
-                <a href="https://val-ue.github.io/unplugged/" target="_blank">
-                  <img src="img/unpluggedimg.png" alt="unplugged project screenshot">
+                <a href="https://1t99s9.csb.app/" target="_blank">
+                  <img src="img/stickynoteimg.png" alt="sticky note iu screenshot">
                 </a>
               </div>
-          
+
               <div class="project-description">
-                <a href="https://val-ue.github.io/unplugged/" target="_blank"><h3>Unplugged <span><i class="fas fa-external-link-alt"></i></span></h3></a>
-                <p class="individial-description">A 3-page, fully responsive website from a design comp. The website is for a retreat aimed at tech industry professionals.</p>
-                <p class="skills"><span>Skills:</span> CSS3, HTML5, Flexbox, Responsive Typography, Media Queries</p>
-                <p class="skills"><span>Tools:</span> GitHub, Photoshop, Visual Studio Code</p>
-              </div>  
+                <a href="https://1t99s9.csb.app/" target="_blank"><h3>Sticky Note UI <span><i class="fas fa-external-link-alt"></i></span></h3></a>
+                <p class="individial-description">An interactive sticky note app that lets users create, edit, search for, and delete sticky notes. Made with React.</p>
+                <p class="skills"><span>Skills:</span> React, ES6, JSX, Data Flow, DOM Manipulation, Local Storage</p>
+                <p class="skills"><span>Tools:</span> CodeSandbox</p>
+              </div>
             </div>
+
+            <div class="individual-projects">
+  
+              <div>
+                <a href="https://6bfkcg.csb.app/" target="_blank"><img src="img/nametagimg.png" alt="name tag generator screenshot"></a>
+              </div>
+
+              <div class="project-description">
+                <a href="https://6bfkcg.csb.app/" target="_blank"><h3>Name Tag Generator <span><i class="fas fa-external-link-alt"></i></span></h3></a>
+                <p class="individial-description">This name tag generator is made with React. By using functional components and ES6 modules, it allows users to create name tags in bulk and delete unwanted ones.</p>
+                <p class="skills"><span>Skills:</span> React, ES6, JSX, Data Flow</p>
+                <p class="skills"><span>Tools:</span> CodeSandbox</p>
+              </div>
+            </div>            
+
+          <div class="individual-projects">
+
+            <div>
+              <a href="https://val-ue.github.io/repo-gallery/" target="_blank">
+                <img src="img/githubrepo.png" alt="github repo gallery screenshot">
+              </a>
+            </div>
+
+            <div class="project-description">
+              <a href="https://val-ue.github.io/repo-gallery/" target="_blank"><h3>Github Repo Gallery <span><i class="fas fa-external-link-alt"></i></span></h3></a>
+              <p class="individial-description">A gallery of GitHub repos that pulls from my GitHub portfolio. Visitors are able to search for and click on repos for details.</p>
+              <p class="skills"><span>Skills:</span> APIs, JavaScript, DOM Manipulation, Loops</p>
+              <p class="skills"><span>Tools:</span> GitHub</p>
+            </div>
+          </div>            
 
             <div class="individual-projects">
 
@@ -130,36 +161,6 @@
                 <p class="skills"><span>Tools:</span> GitHub, JSON</p>
               </div>
             </div>
-  
-            <div class="individual-projects">
-  
-              <div>
-                <a href="https://1t99s9.csb.app/" target="_blank">
-                  <img src="img/stickynoteimg.png" alt="sticky note iu screenshot">
-                </a>
-              </div>
-
-              <div class="project-description">
-                <a href="https://1t99s9.csb.app/" target="_blank"><h3>Sticky Note UI <span><i class="fas fa-external-link-alt"></i></span></h3></a>
-                <p class="individial-description">An interactive sticky note app that lets users create, edit, and delete sticky notes. Made with React.</p>
-                <p class="skills"><span>Skills:</span> React, ES6, JSX, Data Flow, DOM Manipulation, Local Storage</p>
-                <p class="skills"><span>Tools:</span> CodeSandbox</p>
-              </div>
-            </div>
-
-            <div class="individual-projects">
-  
-              <div>
-                <a href="https://6bfkcg.csb.app/" target="_blank"><img src="img/nametagimg.png" alt="name tag generator screenshot"></a>
-              </div>
-
-              <div class="project-description">
-                <a href="https://6bfkcg.csb.app/" target="_blank"><h3>Name Tag Generator <span><i class="fas fa-external-link-alt"></i></span></h3></a>
-                <p class="individial-description">This name tag generator is made with React. By using functional components and ES6 modules, it allows users to create name tags in bulk.</p>
-                <p class="skills"><span>Skills:</span> React, ES6, JSX, Data Flow</p>
-                <p class="skills"><span>Tools:</span> CodeSandbox</p>
-              </div>
-            </div>
 
           </div>
         </div>
@@ -170,24 +171,29 @@
       <footer id="contact">
         <div class="content-wrapper">
 
-          <div class="contact-h1">
-            <h1>Let<span>'</span>s Connect!</h1>
-          </div>
-
-          <div class="contact-list">  
-            <p id="email"><a href="mailto:hello@hello.com">hello@hello.com</a></p>
-        
-            <div class="social">
-              <p class="social-icons">
-                <a href="https://github.com/val-ue" target="_blank"><i class="fab fa-github"></i></a>
-              </p>
-
-              <p class="social-icons">
-                <a href="https://github.com/val-ue" target="_blank"><i class="fab fa-linkedin"></i></a>
-              </p>
+          <div class="footer-main">
+            <div class="contact-h2">
+              <h1>Let<span>'</span>s Connect!</h1>
             </div>
 
-          </div>  
+            <div class="contact-list">  
+              <p id="email"><a href="mailto:contacttovalerie@gmail.com">contacttovalerie@gmail.com</a></p>
+          
+              <div class="social">
+                <p class="social-icons">
+                  <a href="https://github.com/val-ue" target="_blank"><i class="fab fa-github"></i></a>
+                </p>
+
+                <p class="social-icons">
+                  <a href="https://www.linkedin.com/in/valerie-labi-2090ab277/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                </p>
+              </div>
+            </div>  
+          </div>
+
+          <div class="copyright">
+            <p>Valerie Labi | <span id="year"></span></p>
+          </div>
         
         </div>  
       </footer>
