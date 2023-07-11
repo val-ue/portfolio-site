@@ -14,7 +14,7 @@ body {
 }
 
 :root {
-  --shadow-color: 0deg 0% 0%;
+  --shadow-color: 230deg 50% 44%;
   --shadow-elevation-high:
     -0.2px 0.2px 0.3px hsl(var(--shadow-color) / 0.04),
     -0.6px 0.9px 1.3px -0.3px hsl(var(--shadow-color) / 0.05),
